@@ -2,6 +2,7 @@ import pandas as pd
 
 def extract(file_path):
     print('Extracting data...')
+    print('hello')
     df = pd.DataFrame()
     {
         'column1': [1, 2, 3],
