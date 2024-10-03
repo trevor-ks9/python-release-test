@@ -1,6 +1,7 @@
 import pandas as pd
 
 def extract(file_path):
+    print('Extracting data...')
     df = pd.DataFrame()
     {
         'column1': [1, 2, 3],
